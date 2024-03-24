@@ -4,18 +4,21 @@ Welcome to my Torch Noteboks repository contains a collection of Jupyter noteboo
 ## Overview
 In this repository, you will find notebooks and code examples covering a wide range of topics related to deep learning and PyTorch, including:
 
-**1. PyTorch:** PyTorch is utilized to define the architecture of the neural network
+**1. Python:** Python is a popular choice for machine learning and natural language processing tasks
+due to its simplicity and extensive ecosystem of libraries.
+
+**2. PyTorch:** PyTorch is utilized to define the architecture of the neural network
 (LexiconModel) and to perform training and inference operations. The model learns the
 probability distribution of the next word given the current word, which is crucial for
 generating predictions.
 
-**2. Numpy:** NumPy provides support for numerical operations on multi-dimensional arrays and
+**3. Numpy:** NumPy provides support for numerical operations on multi-dimensional arrays and
 matrices. It is used in the code to manipulate data efficiently, particularly in converting
 data into tensors, which are the primary data structures used by PyTorch for computations.
 NumPy helps in handling numerical data and performing computations required during
 the preprocessing steps and training process.
 
-**3. String Module:** In the next-word prediction model, the
+**4. String Module:** In the next-word prediction model, the
 ‘string’ module is used to preprocess words by converting them to lowercase and
 removing punctuation marks. This preprocessing ensures consistency in the representation
 of words, which is essential for the accurate modeling of word transitions and predictions.
